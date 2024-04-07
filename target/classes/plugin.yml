@@ -1,0 +1,21 @@
+main: fr.asyfero.phase.Main
+name: Phase
+version: alpha1
+api-version: 1.20
+author: Asyfero
+commands:
+  top:
+    description: Menu des Classements
+    usage: /top
+  point:
+    description: Manageur de Points
+    usage: /point <add/get/remove> <player> <number> <type>
+  vanish:
+    description: Se mettre en Vanish
+    usage: /vanish
+  register:
+    description: Création mdp
+    usage: /register <password>
+  login:
+    description: Connexion
+    usage: /login <password>
